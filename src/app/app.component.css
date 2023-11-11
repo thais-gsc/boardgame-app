@@ -1,0 +1,35 @@
+* {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+form {
+    right: 5%;
+}
+
+nav {
+    top: 0%;
+    z-index: 1;
+}
+
+.navbar-text {
+    color: white
+}
+
+
+.container {
+    background-color: azure;
+    flex: 1;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #0000004d;
+}
+
+#app {
+    min-height: 100vh;
+}

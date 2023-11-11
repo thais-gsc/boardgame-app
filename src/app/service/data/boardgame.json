@@ -1,0 +1,184 @@
+{
+    "boardgames": [
+        {
+            "id": "1",
+            "name": "7 Wonders (2010)",
+            "min_duration": 30,
+            "max_duration": 60,
+            "min_players": 3,
+            "max_players": 7,
+            "image": "assets/7wonders.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Dead of Winter (2014)",
+            "min_duration": 60,
+            "max_duration": 120,
+            "min_players": 2,
+            "max_players": 5,
+            "image": "assets/deadofwinter.jpg"
+        },
+        {
+            "id": "3",
+            "name": "King of Tokyo (2011)",
+            "min_duration": 30,
+            "max_duration": 45,
+            "min_players": 2,
+            "max_players": 6,
+            "image": "assets/kingoftokyo.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Elder Sign (2011)",
+            "min_duration": 60,
+            "max_duration": 120,
+            "min_players": 1,
+            "max_players": 8,
+            "image": "assets/eldersign.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Takenoko (2011)",
+            "min_duration": 45,
+            "max_duration": 60,
+            "min_players": 2,
+            "max_players": 4,
+            "image": "assets/takenoko.png"
+        },
+        {
+            "id": "6",
+            "name": "Tokaido (2012)",
+            "min_duration": 45,
+            "max_duration": 60,
+            "min_players": 2,
+            "max_players": 5,
+            "image": "assets/tokaido.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Mr. Jack (2006)",
+            "min_duration": 30,
+            "max_duration": 45,
+            "min_players": 2,
+            "max_players": 2,
+            "image": "assets/mrjack.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Survive (1982)",
+            "min_duration": 45,
+            "max_duration": 60,
+            "min_players": 2,
+            "max_players": 4,
+            "image": "assets/survive.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Chronicles of Crime (2018)",
+            "min_duration": 60,
+            "max_duration": 90,
+            "min_players": 1,
+            "max_players": 4,
+            "image": "assets/chroniclesofcrime.png"
+        },
+        {
+            "id": "10",
+            "name": "Mansions of Madness (2016)",
+            "min_duration": 120,
+            "max_duration": 180,
+            "min_players": 1,
+            "max_players": 5,
+            "image": "assets/mansionsofmadness.jpg"
+        },
+        {
+            "id": "11",
+            "name": "Whitehall Mystery (2017)",
+            "min_duration": 75,
+            "max_duration": 90,
+            "min_players": 2,
+            "max_players": 4,
+            "image": "assets/whitehall.png"
+        },
+        {
+            "id": "12",
+            "name": "Escape Tales (2018)",
+            "min_duration": 360,
+            "max_duration": 360,
+            "min_players": 1,
+            "max_players": 4,
+            "image": "assets/escapetales.jpg"
+        },
+        {
+            "id": "13",
+            "name": "Kanagawa (2016)",
+            "min_duration": 45,
+            "max_duration": 60,
+            "min_players": 2,
+            "max_players": 4,
+            "image": "assets/kanagawa.jpg"
+        },
+        {
+            "id": "14",
+            "name": "When I Dream (2016)",
+            "min_duration": 20,
+            "max_duration": 40,
+            "min_players": 4,
+            "max_players": 10,
+            "image": "assets/whenidream.jpg"
+        },
+        {
+            "id": "15",
+            "name": "Black Stories (2004)",
+            "min_duration": 20,
+            "max_duration": 30,
+            "min_players": 2,
+            "max_players": 15,
+            "image": "assets/blackstories.jpg"
+        },
+        {
+            "id": "16",
+            "name": "Escape Room (2016)",
+            "min_duration": 60,
+            "max_duration": 90,
+            "min_players": 3,
+            "max_players": 5,
+            "image": "assets/escaperoom.jpg"
+        },
+        {
+            "id": "17",
+            "name": "4 Gods (2016)",
+            "min_duration": 30,
+            "max_duration": 45,
+            "min_players": 2,
+            "max_players": 4,
+            "image": "assets/4gods.jpg"
+        },
+        {
+            "id": "18",
+            "name": "Pandemic (2008)",
+            "min_duration": 45,
+            "max_duration": 60,
+            "min_players": 2,
+            "max_players": 4,
+            "image": "assets/pandemic.jpeg"
+        },
+        {
+            "id": "19",
+            "name": "Resistance (2009)",
+            "min_duration": 30,
+            "max_duration": 60,
+            "min_players": 5,
+            "max_players": 10,
+            "image": "assets/resistance.jpg"
+        },
+        {
+            "id": "20",
+            "name": "Hive (2001)",
+            "min_duration": 20,
+            "max_duration": 30,
+            "min_players": 2,
+            "max_players": 2,
+            "image": "assets/hive.jpg"
+        }
+    ]
+}

@@ -1,1 +1,19 @@
-<p>home works!</p>
+<div class="principal" class="container text-center">
+    <div class="row align-items-center">
+        <ng-container>
+            <h1 *ngIf="!buscaFoiFeita" class="mb-5">Recomendações da semana!</h1>
+            <h1 *ngIf="buscaFoiFeita" class="mb-5">{{numeroDeResultados}} resultado(s) encontrado(s)</h1>
+            <div class="card position-static mb-2" *ngFor="let boardgame of boardgames">
+                <img [src]="boardgame.image" [alt]="boardgame.name" [title]="boardgame.name" class="card-img-top mt-2">
+                <div class="card-body">
+                    <h4 class="card-title">{{boardgame.name}}</h4>
+                    <div class="types">
+                        <h6 class="card-text">Tempo: {{boardgame.min_duration}} a {{boardgame.max_duration}} minutos</h6>
+                        <h6 class="card-text">{{boardgame.min_players}} a {{boardgame.max_players}} jogadores</h6>
+                    </div>
+                </div>
+            </div>
+        </ng-container>   
+    </div>
+</div>
+

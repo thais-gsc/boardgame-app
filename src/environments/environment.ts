@@ -14,5 +14,4 @@ export const environment = {
    * on performance if an error is thrown.
    */
   // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
-  export const API_PATH1 = 'https://api.geekdo.com/xmlapi/boardgame'
-  export const API_PATH2 = 'https://api.geekdo.com/xmlapi2/search?query='
+  export const API_PATH = 'http://localhost:3000/boardgames'

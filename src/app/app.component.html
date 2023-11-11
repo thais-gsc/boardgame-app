@@ -1,20 +1,40 @@
-<div class="container">
-    <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+<div id="app" class="d-flex flex-column">
+    <nav *ngIf="!isLoginPage()" class="navbar navbar-expand-lg bg-dark p-4 position-sticky">
+        <div class="navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item" ngbDropdown>
+                    <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1" role="button"
+                        class="btn btn-dark">
+                        <fa-icon [icon]="faBars"></fa-icon>
+                    </a>
+                    <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+                        <a ngbDropdownItem routerLink="home">Home</a>
+                        <a ngbDropdownItem routerLink="">Login</a>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-fluid">
+            <form class="d-flex position-absolute" role="search">
+                <input #input name="termoBusca" [(ngModel)]="termoBusca" class="form-control me-2" type="text" placeholder="Buscar" label="buscar">
+                <button id="btnBusca" class="btn btn-outline-light" type="submit" for="buscar" (click)="buscar()">
+                    <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+                </button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container position-static mt-3 mb-3 p-3">
+        <router-outlet></router-outlet>
+    </div>
+
+    <footer class="navbar bg-dark mt-3 w-100">
+        <div class="container-fluid justify-content-center">
+            <span class="navbar-text">
+                Projeto de Bloco: Modelagem e Otimização de Sistemas - Thaís Gadiole Schöntag
+            </span>
+        </div>
+    </footer>
 </div>
-
-
-
-<router-outlet></router-outlet>

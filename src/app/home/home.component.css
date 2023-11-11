@@ -1,0 +1,16 @@
+.card {
+    width: 18rem;
+    height: 22rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.card-img-top {
+    max-height: 12rem;
+    width: 60%;
+}
+
+img:hover {
+    transform: scale(2);
+    transition: transform 0.3s ease-in-out;
+  }
