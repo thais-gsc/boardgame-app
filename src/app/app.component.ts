@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BggApiService } from './service/bgg-api.service';
 import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { Router } from '@angular/router';
@@ -12,7 +12,6 @@ import { BuscaService } from './service/busca.service';
 export class AppComponent implements OnInit{
   title = 'boardgame-app';
 
-  @Output() termoBuscaChange: EventEmitter<string> = new EventEmitter<string>();
   public termoBusca: string = '';
   public faMagnifyingGlass = faMagnifyingGlass
   public faBars = faBars
@@ -25,7 +24,6 @@ export class AppComponent implements OnInit{
   }
 
   public buscar(): void {
-    this.api.findGame(this.termoBusca);
     this.buscaService.buscar(this.termoBusca);
   }
 

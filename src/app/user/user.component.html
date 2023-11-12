@@ -1,1 +1,32 @@
-<p>user works!</p>
+
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                <img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg">
+                <span class="font-weight-bold">thaisgsc</span>
+            </div>
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="text-right">Meu perfil</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-12"><label class="labels">Nome</label><input type="text" class="form-control" value="Thaís Gadiole Schöntag"></div>
+                    <div class="col-md-12"><label class="labels">E-mail</label><input type="email" class="form-control" value="thais.schontag@al.infnet.edu.br"></div>
+                </div>
+                <div class="row text-center mt-5">
+                        <h5 class="mb-3">Jogos Favoritos</h5>
+                        <div class="d-flex col-md-4" *ngFor="let favorito of favoritos">
+                            <div class="card position-static mb-2" >
+                                    <img [src]="favorito.image" [alt]="favorito.name" [title]="favorito.name" class="card-img-top mt-2">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{favorito.name}}</h4>
+                                    <button class="btn btn-lg btn-light btn-block mt-3" (click)="removeFavorite(favorito)">Remover</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
