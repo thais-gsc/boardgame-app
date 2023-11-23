@@ -1,8 +1,9 @@
 .card {
-    width: 20rem;
+    width: 18rem;
     height: 24rem;
     margin: 0 auto;
     display: block;
+    box-shadow: 2px 2px #0000002c;
 }
 
 .card-img-top {
@@ -13,4 +14,8 @@
 img:hover {
     transform: scale(1.5);
     transition: transform 0.3s ease-in-out;
+}
+
+button {
+    box-shadow: 1px 1px;
 }

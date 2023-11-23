@@ -19,7 +19,10 @@
                         <h5 class="mb-3">Jogos Favoritos</h5>
                         <div class="d-flex col-md-4" *ngFor="let favorito of favoritos">
                             <div class="card position-static mb-2" >
+                                <a href="https://www.youtube.com/results?search_query={{favorito.name}}+tutorial" target="_blank">
                                     <img [src]="favorito.image" [alt]="favorito.name" [title]="favorito.name" class="card-img-top mt-2">
+                                </a>
+                                    
                                 <div class="card-body">
                                     <h4 class="card-title">{{favorito.name}}</h4>
                                     <button class="btn btn-lg btn-light btn-block mt-3" (click)="removeFavorite(favorito)">Remover</button>
